@@ -17,6 +17,7 @@ a {
   --darkgrey: #22262a;
   --lightgrey: #d3d3d3;
   --grey: #808080;
+  --lightgray2: #f1efdc;
 }
 
 body {
@@ -48,4 +49,7 @@ code {
 .btn:hover {
   border: 1px solid var(--secondary);
   background-color: var(--secondary);
+}
+.active {
+  left: 0;
 }
